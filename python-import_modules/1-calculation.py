@@ -1,4 +1,4 @@
-#!/usr/bin/pytohn3
+#!/usr/bin/pyton3
 def add(a, b):
     """My addition function
 
