@@ -9,7 +9,7 @@ elif len(sys.argv) == 2:
     b = ":"
 if len(sys.argv) == 1:
     b = "."
-print("{} {} {}".format(len(sys.argv), a, b))
+print("{} {} {}".format(len(sys.argv) - 1, a, b))
 
 for i in range(1, len(sys.argv)):
     print("{}{} {}".format(i, b, sys.argv[i]))
