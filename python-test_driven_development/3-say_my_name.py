@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+This module defines the function say_my_name.
+The function prints "My name is <first_name> <last_name>".
+It raises TypeError if first_name or last_name are not strings.
+"""
 def say_my_name(first_name, last_name=""):
     """Prints 'My name is <first name> <last name>'.
 
