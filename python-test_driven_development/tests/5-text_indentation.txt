@@ -4,5 +4,9 @@
 >>> text = "Hello world. How are you? I am fine: thank you."
 >>> text_indentation(text)
 Hello world.
-
+<BLANKLINE>
 How are you?
+<BLANKLINE>
+I am fine:
+<BLANKLINE>
+thank you.
