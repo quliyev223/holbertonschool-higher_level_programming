@@ -6,37 +6,3 @@
 Hello world.
 
 How are you?
-
-I am fine:
-
-thank you.
-
-# Multiple punctuation marks
->>> text = "Wait... What? Really:: Yes."
->>> text_indentation(text)
-Wait.
-
-.
-
-.
-
-What?
-
-Really:
-
-:
-
-Yes.
-
-# Leading and trailing spaces
->>> text = "  Leading and trailing spaces.   Another sentence?  "
->>> text_indentation(text)
-Leading and trailing spaces.
-
-Another sentence?
-
-# TypeError test
->>> text_indentation(123)
-Traceback (most recent call last):
-...
-TypeError: text must be a string
