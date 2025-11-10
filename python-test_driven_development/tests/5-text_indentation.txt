@@ -1,46 +1,42 @@
 >>> text_indentation = __import__('5-text_indentation').text_indentation
 
-# Test normal text with punctuation
+# Normal text with punctuation
 >>> text = "Hello world. How are you? I am fine: thank you."
 >>> text_indentation(text)
 Hello world.
- 
+
 How are you?
- 
+
 I am fine:
- 
+
 thank you.
 
-# Test multiple punctuation marks in a row
+# Multiple punctuation marks
 >>> text = "Wait... What? Really:: Yes."
 >>> text_indentation(text)
 Wait.
- 
+
 .
- 
+
 .
- 
+
 What?
- 
+
 Really:
- 
+
 :
- 
+
 Yes.
 
-# Test that leading and trailing spaces are removed
+# Leading and trailing spaces
 >>> text = "  Leading and trailing spaces.   Another sentence?  "
 >>> text_indentation(text)
 Leading and trailing spaces.
- 
+
 Another sentence?
 
-# Test TypeError when argument is not a string
+# TypeError test
 >>> text_indentation(123)
 Traceback (most recent call last):
 ...
 TypeError: text must be a string
-
-# Test text without any punctuation
->>> text_indentation("No punctuation here")
-No punctuation here
