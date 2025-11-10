@@ -19,5 +19,8 @@ def say_my_name(first_name, last_name=""):
     if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
 
-    # Always print a space between first and last name, even if last_name is empty
-    print(f"My name is {first_name} {last_name}")
+    # Только добавляем last_name, если он есть
+    if last_name:
+        print(f"My name is {first_name} {last_name}")
+    else:
+        print(f"My name is {first_name}")
