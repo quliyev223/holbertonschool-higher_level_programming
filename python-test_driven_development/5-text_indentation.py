@@ -3,6 +3,7 @@
 This module contains the function text_indentation:
 prints a text with 2 new lines after '.', '?' and ':'
 """
+
 def text_indentation(text):
     """Prints a text with 2 new lines after '.', '?' and ':'"""
     if not isinstance(text, str):
@@ -18,5 +19,6 @@ def text_indentation(text):
             print()
             line = ""
 
+    # Print any remaining text that doesn't end with ., ?, :
     if line.strip():
-        print(line.strip())
+        print(line.strip(), end="")
