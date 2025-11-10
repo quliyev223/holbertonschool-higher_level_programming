@@ -5,6 +5,13 @@ Function that divides all elements of a matrix
 
 
 def matrix_divided(matrix, div):
+    """Divides all elements of a matrix by div
+    Args:
+        matrix (list of lists): matrix of integers/floats
+        div (int/float): number to divide by
+    Returns:
+        list: new matrix with elements divided and rounded to 2 decimals
+    """
     if (not isinstance(matrix, list) or
             not all(isinstance(row, list) for row in matrix) or
             not all(isinstance(x, (int, float)) for row in matrix for x in row)):
