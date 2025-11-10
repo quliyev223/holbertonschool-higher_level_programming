@@ -13,12 +13,14 @@ def text_indentation(text):
     chars = ['.', '?', ':']
     line = ""
 
-    for c in text:
+    for i, c in enumerate(text):
         line += c
         if c in chars:
             print(line.strip())
+            # Only add extra newline if this is not the last character
+            if i != len(text) - 1:
+                print()
             line = ""
-            print() if any(text[text.index(c)+1:]) else None
 
     # Print any remaining text that doesn't end with ., ?, :
     if line.strip():
