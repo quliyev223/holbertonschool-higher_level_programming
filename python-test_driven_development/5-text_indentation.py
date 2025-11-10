@@ -17,8 +17,8 @@ def text_indentation(text):
         line += c
         if c in chars:
             print(line.strip())
-            print()
             line = ""
+            print() if any(text[text.index(c)+1:]) else None
 
     # Print any remaining text that doesn't end with ., ?, :
     if line.strip():
