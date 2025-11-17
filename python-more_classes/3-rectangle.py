@@ -53,7 +53,3 @@ class Rectangle:
     def __str__(self):
         """Return the rectangle as a string of '#' characters in one line of code."""
         return "" if self.width == 0 or self.height == 0 else "\n".join(["#" * self.width] * self.height)
-
-    def __repr__(self):
-        """Return a string representation of the rectangle object."""
-        return f"Rectangle({self.width}, {self.height})"
