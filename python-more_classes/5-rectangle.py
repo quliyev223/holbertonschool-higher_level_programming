@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module 6-rectangle: defines a Rectangle class with instance tracking"""
 
+
 class Rectangle:
     """Defines a rectangle with width, height and instance counter"""
 
