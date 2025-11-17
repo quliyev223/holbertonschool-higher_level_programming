@@ -57,4 +57,4 @@ class Rectangle:
             return ""
         return "\n".join(
             ["#" * self.width] * self.height
-)
+        )
