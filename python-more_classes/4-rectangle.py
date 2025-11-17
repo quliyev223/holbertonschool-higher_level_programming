@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module 4-rectangle: defines a Rectangle class"""
 
+
 class Rectangle:
     """Defines a rectangle with width and height"""
 
