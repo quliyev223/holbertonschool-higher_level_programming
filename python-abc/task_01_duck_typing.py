@@ -34,7 +34,7 @@ class Rectangle(Shape):
 # Circle class, inherits from Shape
 class Circle(Shape):
     def __init__(self, radius):
-        self.radius = radius
+        self.radius = abs(radius)
 
     def area(self):
         # Area formula: p * r^2
