@@ -52,7 +52,7 @@ def shape_info(shape):
     print(f"Perimeter: {shape.perometer()}")
 
 # Testing the classes and function
-if __name == "__main__":
+if __name__ == "__main__":
     circle = Circle(radius=5)
     rectangle = Rectangle(width=4, height=7)
 
