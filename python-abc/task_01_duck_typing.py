@@ -33,7 +33,7 @@ class Rectangle(Shape):
 
 # Circle class, inherits from Shape
 class Circle(Shape):
-    def __init(self, radius):
+    def __init__(self, radius):
         self.radius = radius
 
     def area(self):
