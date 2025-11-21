@@ -49,7 +49,7 @@ class Circle(Shape):
 def shape_info(shape):
     # We assume the object has area() and perimeter methods
     print(f"Area: {shape.area()}")
-    print(f"Perimeter: {shape.perometer()}")
+    print(f"Perimeter: {shape.perimeter()}")
 
 # Testing the classes and function
 if __name__ == "__main__":
