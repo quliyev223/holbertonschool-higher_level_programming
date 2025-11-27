@@ -26,7 +26,8 @@ class Student:
         """
         Replaces all attributes of the Student instance with values from json.
 
-        json: a dictionary with key-value pairs matching attribute names and values
+        json: a dictionary with key-value pairs matching attribute names an
+        d values
         """
         for key, value in json.items():
             setattr(self, key, value)
