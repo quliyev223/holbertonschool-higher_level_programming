@@ -2,7 +2,7 @@
 -- It prints: score and the count of records labeled as number
 -- Results are sorted by number in descending order
 
-SELECT scor, COUNT(*) AS number
+SELECT score, COUNT(*) AS number
 FROM second_table
 GROUP BY score
 ORDER BY number DESC;
