@@ -18,3 +18,20 @@ l1 = [1, 2, 3]
 l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
+
+### 19. Copy a list object
+
+**Question:** Write a function `def copy_list(a_list):` that returns a copy of a list.  
+
+- The input list can contain any type of objects.  
+- Your file should be **maximum 3 lines long**.  
+- **No documentation or imports needed.**
+
+**Example usage:**
+
+```python
+my_list = [1, 2, 3]
+new_list = copy_list(my_list)
+
+print(new_list == my_list)  # True
+print(new_list is my_list)  # False
